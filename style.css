@@ -6,6 +6,11 @@
 
 }
 
+html{
+    scroll-behavior: smooth
+    ;
+}
+
 body {
     background: #080808;
     color: white;
@@ -30,10 +35,12 @@ nav{
 }
 .logo{
     width: 500px;
+    font-family: 'poppins';
 }
 
 .logo span{
     color: #ff004f;
+    font-family: 'poppins';
 } 
 
 nav ul li{
@@ -67,6 +74,7 @@ nav ul li a:hover::after{
 .header-text h1{
     font-size: 60px;
     margin-top: 20px;
+    font-family: "poppins";
 }
 .header-text h1 span{
     color: #ff004f;
@@ -95,7 +103,9 @@ nav ul li a:hover::after{
 .subtitle{
     font-size: 60px;
     font-weight: 600;
-    color: white;
+    color:#ff004f;
+    margin-bottom: 20px;
+    font-family: 'poppins';
 }
 .tab-titles{
     display: flex;
